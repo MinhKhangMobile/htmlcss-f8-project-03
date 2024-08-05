@@ -403,3 +403,128 @@ line-height: 30px;
     margin-top: 38px;
     font-family: sora;
 }
+/*member*/
+.member{
+    padding: 170px 0;
+}
+
+.member__heading{
+color: #10375C;
+text-align: center;
+font-family: Sora;
+font-size: 50px;
+font-weight: 600;
+line-height: 60px;
+}
+.member__cta{
+margin-left: 480px;
+margin-top: 38px;
+color: #FFF;
+text-align: center;
+font-family: Sora;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.member__list{
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+.member-item__img-bg{
+    border-radius: 6px;
+    padding-top: 28px;
+    background-color: #EAF6FF;
+}
+.member-item__name{
+
+margin-top: 12px;    color: #10375C;
+text-align: center;
+font-family: Sora;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+.member-item__title{
+    color: #575F66;
+    text-align: center;
+    font-family: Sora;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+}
+.member-item__thumb{
+    display: block;
+}
+.member__control{
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+}
+.member__control-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    outline: none;
+    background: #ffff;
+    color: #575F66;
+    transition: 0.25s;
+}
+.member__control-btn:hover{
+    background-color: #2E80CE;
+    border-color: #2E80CE;
+}
+.member__control-next-btn{
+    rotate: 180deg;
+}
+.install__inner{
+    display: flex;
+    background-color: #2E80CE;
+    border-radius: 4px;
+    padding: 0 70px;
+}
+.install__img{
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+    box-shadow: 0px 16px 65px -5px rgb(255, 247, 255);
+    
+}
+.install__content{
+    margin-left: 160px;
+    margin-top: 76px;
+}
+.install__content .section-heading{
+color: #FFF;
+font-family: Sora;
+font-size: 50px;
+font-weight: 600;
+line-height: 60px;
+}
+.install__content .section-desc{
+margin-top: 18px;    
+color: #FFF;
+font-family: Sora;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+}
+.install__row{
+    margin-top: 38px;
+}
+.install__btn{
+    background-color: #2E80CE;
+   border: none;
+}
+.install__btn:first-child{
+    margin-right: 28px;
+}   
+/*event*/
