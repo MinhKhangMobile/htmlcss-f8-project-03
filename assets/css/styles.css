@@ -735,3 +735,25 @@ margin: 12px 12px;
     border: #ffff solid 1px;
     background-color: #2E80CE;
 }
+.footer__end{
+    background-color: #10375C;
+    height: 120px;
+}
+.footer__underline{
+    height: 1px;
+    border-radius: 1px;
+    background-color: #406181;
+    
+}
+.underline{
+    padding-top: 30px;
+}
+.footer__underline--desc{
+text-align: center;
+margin-top: 20px;
+color: #AAB3BA;
+font-family: sora;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+}
